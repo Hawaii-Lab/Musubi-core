@@ -1,4 +1,4 @@
-package com.musubi.core.apiserver
+package com.musubi.apiserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
