@@ -1,3 +1,3 @@
-# Musubi-core
+# Wusubi-core
 
 ## api-server
