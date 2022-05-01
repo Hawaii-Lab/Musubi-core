@@ -42,7 +42,7 @@ idea.project {
 jacoco.toolVersion = "0.8.5"
 
 allprojects {
-    group = "com.musubi.core"
+    group = "com.wusubi.core"
     version = "0.0.1-SNAPSHOT"
 
     apply {

@@ -1,4 +1,4 @@
-rootProject.name = "musubi-core"
+rootProject.name = "wusubi-core"
 
 include("api-server")
-include("musubi-model")
+include("wusubi-model")
