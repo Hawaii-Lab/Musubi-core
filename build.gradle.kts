@@ -79,7 +79,7 @@ allprojects {
         api(kotlin("reflect", version = "1.6.21"))
 
         implementation("com.google.guava:guava:28.2-jre")
-        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.12.5")
+        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.2")
         implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.5")
 
         testImplementation(kotlin("test", version = "1.6.21"))
