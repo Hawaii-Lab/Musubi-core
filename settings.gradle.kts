@@ -1,5 +1,6 @@
 rootProject.name = "wusubi-core"
 
-include("api-server")
 include("wusubi-model")
+include("wusubi-dto")
+include("api-server")
 include("auth-server")

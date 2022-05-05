@@ -1,4 +1,4 @@
-package com.musubi.model.domain.model
+package com.wusubi.domain.model
 
 import javax.persistence.Entity
 import javax.persistence.FetchType

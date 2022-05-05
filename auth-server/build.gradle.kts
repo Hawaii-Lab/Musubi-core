@@ -1,5 +1,6 @@
 
 dependencies {
+    api(project(":wusubi-model"))
     // spring boot
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
