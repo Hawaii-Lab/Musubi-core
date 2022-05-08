@@ -11,6 +11,7 @@ class Member(
     @Id
     @GeneratedValue
     var id: Long? = null,
+    var authType: String? = null,
     var name: String? = null,
     var email: String? = null,
     var isActive: Boolean? = null,
