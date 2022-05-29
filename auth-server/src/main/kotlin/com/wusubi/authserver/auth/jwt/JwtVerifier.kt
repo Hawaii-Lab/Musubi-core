@@ -1,7 +1,7 @@
 package com.wusubi.authserver.auth.jwt
 
 import com.wusubi.authserver.auth.model.AccessTokenClaims
-import com.wusubi.authserver.auth.model.AuthType
+import com.wusubi.dto.AuthType
 import io.jsonwebtoken.JwtException
 import io.jsonwebtoken.Jwts
 import org.springframework.stereotype.Component

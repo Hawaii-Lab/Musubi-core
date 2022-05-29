@@ -23,7 +23,6 @@ dependencies {
 
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign:3.1.2")
 
-
     // h2
     runtimeOnly("com.h2database:h2")
 

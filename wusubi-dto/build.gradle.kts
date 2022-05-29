@@ -6,16 +6,6 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-validation")
 }
 
-//tasks {
-//    withType<BootJar> {
-//        enabled = false
-//    }
-//    withType<BootRun> {
-//        enabled = false
-//    }
-//}
-//
-
 tasks.getByName<BootJar>("bootJar") {
     enabled = false
 }
