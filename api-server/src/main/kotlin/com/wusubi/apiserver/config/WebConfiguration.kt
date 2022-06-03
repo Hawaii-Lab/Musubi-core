@@ -6,7 +6,7 @@ import org.springframework.format.FormatterRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer
 
 @Configuration
-class WebConfiguration: WebMvcConfigurer {
+class WebConfiguration : WebMvcConfigurer {
 
     override fun addFormatters(registry: FormatterRegistry) {
         registry.addConverter(AuthTypeConverter())

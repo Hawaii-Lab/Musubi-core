@@ -12,7 +12,7 @@ class LoginHandlerSelector(
     private val naverLoginHandler: NaverLoginHandler,
 ) {
     fun select(authType: AuthType): LoginHandler? =
-        when(authType) {
+        when (authType) {
             AuthType.KAKAO -> kakaoLoginHandler
             AuthType.NAVER -> naverLoginHandler
             else -> null

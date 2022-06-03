@@ -1,6 +1,7 @@
 package com.wusubi.dto
 
-enum class GenderType {
-    Female,
-    Male
+enum class GenderType(s: String) {
+    F("Female"),
+    M("Male"),
+    U("Undefined")
 }
